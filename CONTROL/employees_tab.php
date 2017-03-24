@@ -3,9 +3,10 @@
 	require_once('../vue/haut.php');
 	require_once('../vue/aside.php');
 
-	$employees=Model::load("employees");
+	$employees=Model::load("utilisateurs");
 
-	$employees->read('employeeID "#", Title "Titre ", LastName "Nom" , FirstName "Prénom"');
+	// utilisateur "#", nom "Nom", prenom "Pr&eacute;nom"
+	$employees->read("utilisateur, nom, prenom");
 
 	require_once('../vue/employees_tab.php');
 

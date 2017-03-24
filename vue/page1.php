@@ -53,7 +53,7 @@
 		<article>
 			<h3>Décès Abbé Vanderus</h3>
 			
-					<img src="../vue/images/vanderus.jpg" alt="">
+					<img src="../vue/images/velite.gif" alt="">
 			<p> 
 				Notre Président de PO a tiré sa révérence en ce début de mois de juillet. <br>
 
